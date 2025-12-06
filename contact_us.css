@@ -1,0 +1,52 @@
+
+.contact__us__heading::after{
+    position: absolute;
+    content: '';
+    width: 220px;
+    border-bottom: 1px solid black;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact__us__form{
+    border-radius: 16px;
+    margin: 10%;
+    padding: 28px 0;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.contact__us__form h3, .contact__us__form p{
+    text-align: center;
+    margin: 20px;
+}
+
+.input__group{
+    display: flex;
+    padding: 0 20%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input__group label{
+    font-size: 1.4rem;
+    display: inline-block;
+    width: 40%;
+}
+
+.input__group input, select, textarea{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: "Cormorant Garamond", sans-serif;
+}
+
+.input__group input:focus, select:focus, textarea:focus{
+    outline: none;
+}
+
+.btn{
+    display: block;
+    margin: 40px auto;
+}

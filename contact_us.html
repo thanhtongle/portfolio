@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="contact_us.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tan Le Portfolio - Contact Me</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <header role="banner">
+        <a class="logo" href="#">tanle.</a>
+        <nav class="navbar" role="navigation">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="./index.html#container">HOME</a></li>
+            <li class="nav__item"><a href="./index.html#about">ABOUT</a></li>
+            <li class="nav__item">
+              <a href="./index.html#service">SERVICE</a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav__item"><a href="#contact__us">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+      <form class="contact__us__form" action="" id="contact__us" role="form">
+        <h3 class="contact__us__heading">CONTACT ME</h3>
+
+        <p class="personal__address">Windsor, Ontario, Canada</p>
+        <p class="personal__email">lethanhtong.work@gmail.com</p>
+        <p class="personal__phone">+1 (519) 903 5486</p>
+
+        <div class="input__group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" aria-required="true"/>
+        </div>
+
+        <div class="input__group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" aria-required="true"/>
+        </div>
+
+        <div class="input__group">
+          <label for="contact__by">Contact by</label>
+          <select name="contact__by" id="contact__by">
+            <option
+              style="font-family: Cormorant Garamond, sans-serif"
+              value="Email"
+            >
+              Email
+            </option>
+            <option value="Phone">Phone</option>
+          </select>
+        </div>
+
+        <div class="input__group">
+          <label for="email">Email</label>
+          <input type="text" id="email" aria-required="true"/>
+        </div>
+
+        <div class="input__group">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" aria-required="true"/>
+        </div>
+
+        <div class="input__group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="5" aria-required="true"></textarea>
+        </div>
+
+        <button class="btn white__btn" type="submit">
+          HIRE ME <i class="fa-regular fa-paper-plane"></i>
+        </button>
+      </form>
+
+      <footer class="footer">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li class="social__item">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li class="social__item">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="social__item">
+            <a href=""><i class="fa-brands fa-google"></i></i></a>
+          </li>
+        </ul>
+        <p class="copy__right">Copy Right 2025 by Thanh Tong Le</p>
+        <button class="footer__btn"><a href="#container"><i class="fa-solid fa-arrow-up"></i></a></button>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/6c802e3a49.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
